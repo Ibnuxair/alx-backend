@@ -8,11 +8,11 @@ babel = Babel(app)
 
 
 class Config(object):
-        """ Configuration Class for Babel """
+    """ Configuration Class for Babel """
 
-        LANGUAGES = ['en', 'fr']
-        BABEL_DEFAULT_LOCALE = 'en'
-        BABEL_DEFAULT_TIMEZONE = 'UTC'
+    LANGUAGES = ['en', 'fr']
+    BABEL_DEFAULT_LOCALE = 'en'
+    BABEL_DEFAULT_TIMEZONE = 'UTC'
 
 
 app.config.from_object(Config)
